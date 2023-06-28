@@ -32,12 +32,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "0.0.0.0:4000/",
+					"raw": "dss.trafficon.eu:4000/",
 					"host": [
-						"0",
-						"0",
-						"0",
-						"0"
+						"dss",
+						"trafficon",
+						"eu"
 					],
 					"port": "4000",
 					"path": [
@@ -74,12 +73,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "0.0.0.0:4000/books",
+					"raw": "dss.trafficon.eu:4000/books",
 					"host": [
-						"0",
-						"0",
-						"0",
-						"0"
+						"dss",
+						"trafficon",
+						"eu"
 					],
 					"port": "4000",
 					"path": [
@@ -117,12 +115,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "0.0.0.0:4000/book/1",
+					"raw": "dss.trafficon.eu:4000/book/1",
 					"host": [
-						"0",
-						"0",
-						"0",
-						"0"
+						"dss",
+						"trafficon",
+						"eu"
 					],
 					"port": "4000",
 					"path": [
@@ -178,12 +175,11 @@
 					}
 				},
 				"url": {
-					"raw": "0.0.0.0:4000/book",
+					"raw": "dss.trafficon.eu:4000/book",
 					"host": [
-						"0",
-						"0",
-						"0",
-						"0"
+						"dss",
+						"trafficon",
+						"eu"
 					],
 					"port": "4000",
 					"path": [
@@ -221,12 +217,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "0.0.0.0:4000/bundesland/Salzburg",
+					"raw": "dss.trafficon.eu:4000/bundesland/Salzburg",
 					"host": [
-						"0",
-						"0",
-						"0",
-						"0"
+						"dss",
+						"trafficon",
+						"eu"
 					],
 					"port": "4000",
 					"path": [
