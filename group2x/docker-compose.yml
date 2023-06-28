@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  # api-gateway
+  api-gateway:
+    container_name: api-gateway-group2
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - TZ=Europe/Amsterdam
+    ports:
+      - "4200:80"
+    restart: always

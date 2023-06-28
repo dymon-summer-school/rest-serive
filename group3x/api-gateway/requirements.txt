@@ -1,0 +1,5 @@
+# general
+requests
+numpy
+pandas
+geopandas
