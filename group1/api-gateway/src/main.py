@@ -49,3 +49,7 @@ async def input(body: dict = Body(...)) -> JSONResponse:
 
 
 # add get bundesland endpoint
+@app.get("/bundesland/{name}")
+async def get_bundesland_by_name(name: str) -> dict:
+    bundesland: dict = Fake_DB.get_bundesland_by_name(name)
+    return bundesland
