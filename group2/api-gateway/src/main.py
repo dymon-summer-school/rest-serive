@@ -41,12 +41,10 @@ async def get_book(id: int = 0) -> JSONResponse:
 # book
 @app.post("/book")
 async def input(body: dict = Body(...)) -> JSONResponse:
-    new_id: int = services.add_book(body)
-    return JSONResponse(status_code=201, content=jsonable_encoder({"new_book_id": new_id}))
+    print(body)
+    # add body(book) to Fake_DB
+    # return status code 201 and the new id
+    return JSONResponse(content={})
 
 
-# bundesland/{name}
-@app.get("/bundesland/{name}")
-async def get_bundesland(name: str = "") -> JSONResponse:
-    bundesland: Optional[dict] = services.get_bundesland_by_name(name)
-    return JSONResponse(status_code=200, content=bundesland)
+# add get bundesland endpoint
