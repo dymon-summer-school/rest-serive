@@ -43,8 +43,9 @@ async def get_book(id: int = 0) -> JSONResponse:
 async def input(body: dict = Body(...)) -> JSONResponse:
     print(body)
     # add body(book) to Fake_DB
+    book_id: int = services.add_book(body)
     # return status code 201 and the new id
-    return JSONResponse(content={})
+    return JSONResponse(content={'Book id is:':book_id}, status_code=201)
 
 
 # add get bundesland endpoint

@@ -21,8 +21,8 @@ def get_book_by_id(id: int | str) -> dict:
 def add_book(book: dict) -> int:
     """-"""
     # add book to FAKE_DB
-    # return new id
-    return 1
+    book_id: int = Fake_DB.add_book(book) 
+    return book_id
 
 
 # get bundesland by name
